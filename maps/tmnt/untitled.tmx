@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="12" height="4" tilewidth="64" tileheight="64" infinite="0" nextlayerid="12" nextobjectid="11">
+ <editorsettings>
+  <export target="../../untitled.js" format="js"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Arcade - Teenage Mutant Ninja Turtles - Stage 5" tilewidth="64" tileheight="64" tilecount="128" columns="32">
+  <image source="pics/Arcade - Teenage Mutant Ninja Turtles - Stage 5.png" trans="ff00ff" width="2111" height="319"/>
+ </tileset>
+ <tileset firstgid="129" name="des" tilewidth="64" tileheight="64" tilecount="7" columns="1">
+  <image source="pics/des.png" trans="ff00ff" width="64" height="448"/>
+ </tileset>
+ <tileset firstgid="136" name="livo" tilewidth="64" tileheight="64" tilecount="7" columns="1">
+  <image source="pics/livo.png" trans="ff00ff" width="64" height="448"/>
+ </tileset>
+ <tileset firstgid="143" name="katana" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/katana.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="144" name="katanal" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/katanal.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="145" name="ninja" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/ninja.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="146" name="strelica" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/strelica.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="piu" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/piu.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="148" name="1" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/1.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="149" name="2" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/2.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="150" name="3" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/3.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="151" name="d1" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/d1.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="152" name="d2" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/d2.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="153" name="d3" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/d3.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="154" name="bebop" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/bebop.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="155" name="shredder" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/shredder.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="156" name="munja" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="pics/munja.gif" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <layer id="1" name="pozadina" width="12" height="4">
+  <data encoding="csv">
+1,2,3,4,5,6,7,8,9,10,11,12,
+33,34,35,36,37,38,39,40,41,42,43,44,
+65,66,67,68,69,70,71,72,73,74,75,76,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Object Layer 1">
+  <properties>
+   <property name="class" value="items"/>
+  </properties>
+  <object id="1" name="katana" gid="143" x="256" y="192" width="64" height="64"/>
+  <object id="3" name="katanal" gid="144" x="320" y="192" width="64" height="64"/>
+  <object id="4" name="mac" gid="145" x="192" y="192" width="64" height="64"/>
+  <object id="5" name="strelica" gid="146" x="704" y="192" width="64" height="64"/>
+  <object id="9" name="metak" gid="147" x="512" y="192" width="64" height="64"/>
+  <object id="10" name="munja" gid="156" x="384" y="192" width="64" height="64"/>
+ </objectgroup>
+ <layer id="3" name="pod" width="12" height="4">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+97,98,99,100,101,102,103,104,105,106,107,108
+</data>
+ </layer>
+ <layer id="7" name="bebop" width="12" height="4">
+  <properties>
+   <property name="class" value="bebop"/>
+  </properties>
+  <data encoding="csv">
+0,154,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="boss" width="12" height="4">
+  <properties>
+   <property name="class" value="boss"/>
+  </properties>
+  <data encoding="csv">
+0,155,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="enemy" width="12" height="4">
+  <properties>
+   <property name="class" value="enemy"/>
+  </properties>
+  <data encoding="csv">
+0,148,149,150,151,152,153,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="enemy2" width="12" height="4">
+  <properties>
+   <property name="class" value="enemy2"/>
+  </properties>
+  <data encoding="csv">
+0,148,149,150,151,152,153,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="enemy3" width="12" height="4">
+  <properties>
+   <property name="class" value="enemy3"/>
+  </properties>
+  <data encoding="csv">
+0,148,149,150,151,152,153,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="leonardo" width="12" height="4">
+  <properties>
+   <property name="class" value="leonardo"/>
+  </properties>
+  <data encoding="csv">
+0,129,130,131,132,133,134,135,136,137,138,139,
+140,141,142,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
